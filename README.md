@@ -1,6 +1,6 @@
 # Usage
 ```ts
-import BinaryData from 'https://deno.land/x/binarymod@1.0.0/mod.ts';
+import BinaryData from 'https://deno.land/x/binarymod/mod.ts';
 
 const myBinaryData = new BinaryData(8n, 0b1001);
 console.log(myBinaryData.toPrettyString()); // 0000 1001
