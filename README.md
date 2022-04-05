@@ -13,7 +13,7 @@ type BinaryDataValueTypes = bigint | number | string;
 The `BinaryData` constructor and `BinaryData#set` method take in a parameter of type `BinaryDataValueTypes`. `BinaryDataValueTypes` can be either a denary bigint primitive, a number (default is denary, but can be preceded by `0x` `0o` or `0b` for hexadecimal, octal and binary respectively, as per ECMA standard), or a string that can be parsed to a number (`0x`, `0c` and `0b` are allowed in this case as well).
 
 # BinaryData
-The `BinaryData` class is the default (and only) export of the BinaryMod module.
+The `BinaryData` class is the default (and only) export of the BinaryMod module. It holds a string of binary data and allows for manipulation of its contents.
 
 ## Constructor
 ```ts
